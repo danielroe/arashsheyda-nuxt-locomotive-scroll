@@ -25,7 +25,7 @@ export default defineNuxtPlugin({
   },
 })
 
-declare module '@vue/runtime-core' {
+declare module 'vue' {
   interface GlobalDirective {
     locomotive: Directive<HTMLElement, InstanceOptions>
   }
